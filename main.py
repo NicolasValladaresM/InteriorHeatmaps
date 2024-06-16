@@ -97,7 +97,7 @@ class MainWindow(QMainWindow):
         ui_path = os.path.join(current_dir, "aplicacion.ui")
 
         loadUi(ui_path, self)  # cargar aplicación
-        self.setWindowTitle("procesar imagen")
+        self.setWindowTitle("Heatmap")
         self.image_path = "" #localizacion del explorador donde se obtuvo la imagen y almacenar la ruta para cortar
         self.points = [] #puntos recortes
         self.crop_window = None  # guardar la instancia creada en clase crop_windows
